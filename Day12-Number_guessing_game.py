@@ -2,7 +2,6 @@ import random
 print("Number Guessing Game")
 print("Number is between 1 and 100")
 x= random.randrange(0,100)
-print(x)
 def guess():
     global x
     dif = input("Choose a difficulty : Easy or Hard ").lower()
